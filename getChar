@@ -1,0 +1,5 @@
+a    :: IO(char,char)
+a    = do x <- getChar
+          getChar
+          y <- getChar
+          return (x,y)

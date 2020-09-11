@@ -1,0 +1,4 @@
+filter :: (a -> Bool) -> [a] -> [a]
+
+filter (men) xs
+men x   = [x <- <, x==lenght<4]
